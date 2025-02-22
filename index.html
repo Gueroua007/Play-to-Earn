@@ -1,34 +1,0 @@
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>واجهة لعبة بوت التلجرام</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- حاوية الفقاعات -->
-  <div class="bubbles-container"></div>
-  
-  <!-- عرض النقاط -->
-  <div class="points">نقاط: 0</div>
-  
-  <!-- زر بدء اللعبة -->
-  <div class="start-game" onclick="startGame()">ابدأ اللعبة</div>
-  
-  <!-- شريط الأزرار السفلي -->
-  <div class="bottom-bar">
-    <button onclick="handleHome()">🏠 Home</button>
-    <button onclick="handleTask()">📜 Task</button>
-    <button onclick="handleReferral()">🔗 Referral</button>
-    <button onclick="handleWallet()">💰 Wallet</button>
-  </div>
-  
-  <script src="script.js"></script>
-  <!-- تضمين Eruda لعرض وحدة التحكم على الهاتف -->
-  <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
-  <script>
-    eruda.init();
-  </script>
-</body>
-</html>
